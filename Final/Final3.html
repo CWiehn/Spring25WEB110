@@ -1,0 +1,40 @@
+<title>Change sheet</title>
+<link rel="stylesheet" href="styles.css">
+<nav><ul><li><a href="Final1.html">Home</a></li><li><a href="Final2.html">Nintendo</a></li></nav>
+<h1>Fill out this form to tell us if we missed anything</h1>
+<body>
+<form action="https://webdevbasics.net/scripts/demo.php" method="POST">
+	<input type="date" id="TodaysDate" name="Date">
+	<label for="TodaysDate">What is todays date?</label>
+	<label for="fullname">First Name:</label>
+	<input type="text" id="fullname">
+	<label for="email">Email:</label>
+	<input type="text" id="email">
+	<p>What did you find wrong?</p>
+	<label for="Error">Error</label>
+	<input type="checkbox" id="error" name="error" value="Error">
+	<label for="else">Other</label>
+	<input type="checkbox" id="else" name="else" value="Other">
+	<label for="topic">Topic:</label>
+	<select name="Topic" id="topic">
+		<option value="general">Home Page</option>
+		<option value="support">Nintendo Page</option>
+		<option value="feedback">Other</option>
+	</select>
+	<label for="message">Message:</label>
+	<textarea type="text" id="message" rows="5"></textarea><br>
+	<p>Would you like an email in return about your request?</p>
+	<input type="radio" id="Yes" name="reply" value="Yes">
+	<label for="Yes">Yes</label>
+	<input type="radio" value="No" id="No" name="reply">
+	<label for="No">No</label>
+	<input type="submit" value="Submit"> <input type="reset" value="Reset">
+	
+</form>
+<img src="thanks.jpeg" alt="A picture of a thank you sign"></img>
+</body>
+<footer>
+<p>©ChloeWiehn 2025</p>
+<p><small>Contact us: <a href="chloewiehn@gmail.com">Chloewiehn@gmail.com</a></small></p>
+<nav><ul><li><a href="Final3.html">Suggest a change</a></li><li><a href="Final4.html">Credits</a></li></ul></nav>
+</footer>
