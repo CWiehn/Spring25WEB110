@@ -1,0 +1,40 @@
+* {box-sizing: border-box; margin: 0; padding: 0;}
+body {font-family: "Arial", sans-serif; background-color: #f5f0f5; text-align: center;}
+.wrapper {max-width: 70%; margin: auto; padding: 20px;}
+nav ul {list-style: none; padding: 10px; background-color:  c0ac92;}
+nav ul li {display: inline; margin-top: 0; margin-bottom: 0; margin-left: 15px; margin-right: 15px;}
+nav a {color: 767676; text-decoration: none; font-size: 1.5em; letter-spacing: 1px;}
+nav a:hover {text-decoration: underline;}
+nav a:visited {color: white;}
+.console {display: flex; align-items: center; justify: center; padding: 40px; background-color: c0ac92;}
+.console img {min-width: 250px; width: 30%; margin-right: 20px; border-radius: 10px;}
+.console-text {max-width: 65%; text-align: left;}
+footer {margin-top: 20px; padding: 10px; background-color: #dfc8aa; color: white;}
+.school img {max-width: 200px; padding: 5px;}
+.school {background-color: c0ac92;}
+.list {background-color: c0ac92;}
+h2 {background-color: 99774c;}
+@media only screen and (max-width: 768px){
+	.console {flex-direction: column; text-align: center;}
+	.console img {width: 250px; margin-bottom: 15px;}
+	.console-text {max-width: 100%; text-align: center;}
+	nav ul {padding: 10px; text-align: center;}
+	nav ul li {display: block; margin-top: 10px; margin-bottom: 10px; margin-left: 0; margin-right: 0;}
+}
+@media only screen and (max-width: 480px){
+	.wrapper {padding: 10px;}
+	.work img {width: 200px;}
+	.features {grid-template-columns: 1fr;}
+	nav ul {padding: 5px;}
+	nav ul li {margin-top: 5px; margin-bottom: 5px; margin-left: 0; margin-right: 0;}
+	nav a {font-size: 16px;}
+}
+form {display: flex; flex-direction: column; flex-wrap: nowrap; margin-top: 0; margin-bottom: 0; margin-left: 100; margin-right: 100; padding: 1em; background-color: #dfc8aa;}
+input, select, textarea {margin-bottom: .5em;}
+@media only screen and (max-width: 768px){
+	form {display: grid; width: 60%; max-width: 30em; gap: 1em; grid-template-columns: 6em 1fr; margin-top: 0; margin-bottom: 0; margin-left: auto; margin-right: auto;}
+}
+form > input[type="submit"] {grid-column: 2; width:10em}
+form > input[type="reset"] {width: 10em;}
+form > input[type="date"] {width: 10em:}
+h1 {background-color:  #8a6a41;}
